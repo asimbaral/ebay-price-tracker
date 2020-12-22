@@ -9,7 +9,7 @@ from email.message import EmailMessage
 myEmail = ""
 print(myEmail)
 password = str(input("Enter your gmail password: "))
-receiversEmail = "baraljems@yahoo.com"
+receiversEmail = ""
 
 # Send the message via our own SMTP server.
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
